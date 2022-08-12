@@ -1,0 +1,25 @@
+[[source]]
+url = "https://mirrors.tencent.com/pypi/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+fastapi = "*"
+uvicorn = "*"
+uvloop = "*"
+httptools = "*"
+
+[dev-packages]
+pylint = "*"
+isort = "*"
+mypy = "*"
+pytest = "*"
+pytest-cov = "*"
+black = "*"
+requests = "*"
+
+[requires]
+python_version = "3.9"
+
+[pipenv]
+allow_prereleases = true
